@@ -27,3 +27,18 @@ function bears(x, s){
 }
 
 // or
+
+function bears(x, s){
+  let count = 0;
+  let out = '';
+  
+  for (let i = 0; i < s.length; i++){
+    if (s[i] === 'B' && s[i+1] === '8' || s[i] === '8' && s[i+1] === 'B') {
+      out += s[i] + s[i+1];
+      i ++;
+      count ++;
+    }
+  } 
+  let res = [out, count >= x ? true : false];
+  return res;
+}
