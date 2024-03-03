@@ -20,3 +20,8 @@ and a boolean indicating whether the total number of bears is greater than or eq
 
 
 // Solution
+
+function bears(x, s){
+  let pairs = s.match(/(8B)|(B8)/g) || [];
+  return [pairs.join(""), pairs.length >= x];
+}
