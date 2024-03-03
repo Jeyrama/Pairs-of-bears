@@ -17,3 +17,6 @@ and a boolean indicating whether the total number of bears is greater than or eq
   (6, 'EvHB8KN8ik8BiyxfeyKBmiCMj') ---> ['B88B', false]; in this example, 
   the number of bears(=4) is lesser than the given value of x(=6)
 */
+
+
+// Solution
