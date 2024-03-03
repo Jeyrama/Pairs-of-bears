@@ -25,3 +25,5 @@ function bears(x, s){
   let pairs = s.match(/(8B)|(B8)/g) || [];
   return [pairs.join(""), pairs.length >= x];
 }
+
+// or
